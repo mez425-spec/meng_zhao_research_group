@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <rect width="900" height="560" rx="30" fill="#eaf3fb"/>
+  <rect x="70" y="70" width="760" height="420" rx="24" fill="#ffffff" stroke="#d8e2ec" stroke-width="4"/>
+  <circle cx="245" cy="215" r="65" fill="#09223f"/>
+  <circle cx="450" cy="190" r="78" fill="#125a9c"/>
+  <circle cx="655" cy="215" r="65" fill="#c99735"/>
+  <path d="M125 430 C150 340 210 305 245 305 C280 305 340 340 365 430" fill="#bdd7ee"/>
+  <path d="M305 430 C340 320 405 295 450 295 C495 295 560 320 595 430" fill="#bdd7ee"/>
+  <path d="M535 430 C560 340 620 305 655 305 C690 305 750 340 775 430" fill="#bdd7ee"/>
+  <text x="450" y="505" font-family="Arial" font-size="30" font-weight="700" fill="#09223f" text-anchor="middle">Group photo placeholder</text>
+</svg>
