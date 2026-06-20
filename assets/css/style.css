@@ -463,22 +463,29 @@ h3 {
 
 /* People */
 .profile-card img {
-  width: 108px;
-  height: 108px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 20%;
   margin-bottom: 18px;
+  border-radius: 14px;
 }
 
 .profile-card.wide {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 28px;
   align-items: center;
 }
 
 .profile-card.wide img {
-  width: 140px;
-  height: 140px;
+  width: 220px;
+  height: 220px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 20%;
   margin-bottom: 0;
+  border-radius: 14px;
 }
 
 .role {
