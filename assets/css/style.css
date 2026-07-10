@@ -154,10 +154,23 @@ a:hover {
 }
 
 /* Hero */
-.hero {
+/* .hero {
   background:
     radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.2), transparent 28%),
     linear-gradient(125deg, var(--navy), #0f4d78 55%, var(--blue));
+  color: var(--white);
+}
+*/
+
+.hero {
+  background:
+    linear-gradient(
+      125deg,
+      rgba(9, 34, 63, 0.94),
+      rgba(15, 77, 120, 0.84) 55%,
+      rgba(18, 90, 156, 0.82)
+    ),
+    url("../img/background-image.png") center / cover no-repeat;
   color: var(--white);
 }
 
