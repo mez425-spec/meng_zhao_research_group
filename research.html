@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | DSIS Laboratory</title>
+  <meta name="description" content="Research directions of the Data Science for Intelligent Systems Laboratory at Lehigh University.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .research-theme-feature {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+      gap: 2rem;
+      align-items: center;
+      margin-top: 2rem;
+      padding: 2rem;
+      background: #fff;
+      border: 1px solid rgba(15, 52, 87, 0.14);
+      border-radius: 24px;
+      box-shadow: 0 14px 35px rgba(15, 52, 87, 0.08);
+    }
+
+    .research-theme-feature h3 {
+      margin-top: 0;
+    }
+
+    .research-theme-feature img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 18px;
+    }
+
+    .research-theme-feature.image-left img {
+      order: -1;
+    }
+
+    .research-vision-image {
+      overflow: hidden;
+      border-radius: 18px;
+    }
+
+    .research-vision-image img {
+      display: block;
+      width: calc(100% + 4px);
+      max-width: none;
+      height: auto;
+      transform: translateX(-4px);
+    }
+
+    @media (max-width: 900px) {
+      .research-theme-feature {
+        grid-template-columns: 1fr;
+        padding: 1.25rem;
+      }
+
+      .research-theme-feature.image-left img {
+        order: initial;
+      }
+    }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span>Department of Industrial &amp; Systems Engineering</span>
+      <span>Lehigh University</span>
+    </div>
+  </div>
+
+  <nav class="navbar container">
+    <a class="brand" href="index.html" aria-label="DSIS Laboratory Home">
+      <span class="brand-logo">DSIS</span>
+      <span class="brand-text">
+        <strong>DSIS Laboratory</strong>
+        <small>Data Science · AI · Intelligent Systems</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Research</p>
+    <h1>Data Science for Intelligent Systems Laboratory</h1>
+    <p>
+      We develop next-generation data science and artificial intelligence methods for modeling,
+      understanding, and optimizing complex intelligent systems, with a focus on tensor analytics,
+      multimodal learning, and healthcare.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="research-feature">
+      <div>
+        <p class="section-label">Overview</p>
+        <h2>Research vision</h2>
+        <p>
+          The Data Science for Intelligent Systems (DSIS) Laboratory develops scalable,
+          interpretable, and trustworthy AI algorithms that transform high-dimensional and
+          multimodal data into actionable insights.
+        </p>
+        <p>
+          Our research lies at the intersection of Industrial &amp; Systems Engineering,
+          Machine Learning, Operations Research, and AI. We aim to bridge methodological
+          innovation with real-world decision making by creating models that can support
+          prediction, optimization, and intelligent system design.
+        </p>
+      </div>
+      <div class="research-vision-image">
+        <img src="assets/img/research-vision.png" alt="DSIS Laboratory research vision">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Research Directions</p>
+    <h2>Current research themes</h2>
+
+    <article class="research-theme-feature">
+      <div>
+        <h3>Tensor Analytics and Multimodal Learning</h3>
+        <p>
+          Many real-world systems naturally generate multiway data. We design tensor
+          decomposition and tensor learning algorithms that preserve higher-order structures
+          while enabling efficient downstream machine learning tasks.
+        </p>
+        <ul class="tick-list">
+          <li>Coupled tensor decomposition</li>
+          <li>Federated tensor learning</li>
+          <li>Dynamic tensor factorization</li>
+          <li>Multimodal representation learning</li>
+          <li>Self-supervised tensor learning</li>
+        </ul>
+      </div>
+      <img src="assets/img/tensor-multimodel.png" alt="Tensor analytics and multimodal learning research diagram" loading="lazy">
+    </article>
+
+    <article class="research-theme-feature image-left">
+      <div>
+        <h3>AI for Healthcare</h3>
+        <p>
+          Healthcare data are increasingly multimodal, combining electronic health records,
+          medical imaging, genomics, wearable sensors, and clinical notes. We develop
+          trustworthy AI methods for clinical decision support.
+        </p>
+        <ul class="tick-list">
+          <li>Computational phenotyping</li>
+          <li>Disease subtyping</li>
+          <li>Clinical risk prediction</li>
+          <li>Precision medicine</li>
+          <li>Personalized treatment recommendation</li>
+        </ul>
+      </div>
+      <img src="assets/img/ai-healthcare.png" alt="AI for healthcare research diagram" loading="lazy">
+    </article>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container">
+    <p class="section-label">Methods and Applications</p>
+    <h2>Keywords</h2>
+    <div class="tag-cloud">
+      <span>Artificial Intelligence</span>
+      <span>Machine Learning</span>
+      <span>Data Science</span>
+      <span>Tensor Analytics</span>
+      <span>Multimodal Learning</span>
+      <span>High-Dimensional Data Modeling</span>
+      <span>Operations Research</span>
+      <span>Optimization</span>
+      <span>Statistical Inference</span>
+      <span>Federated Learning</span>
+      <span>Healthcare Analytics</span>
+      <span>Trustworthy AI</span>
+      <span>Decision Support</span>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>DSIS Laboratory</h3>
+      <p>Department of Industrial &amp; Systems Engineering<br>Lehigh University</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p>
+        <a href="research.html">Research</a><br>
+        <a href="people.html">People</a><br>
+        <a href="publications.html">Publications</a><br>
+        <a href="openings.html">Openings</a>
+      </p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>
+        Email: <a href="mailto:m.zhao@lehigh.edu">m.zhao@lehigh.edu</a><br>
+        Office: Mohler Laboratory, Room 473<br>
+        200 W Packer Ave, Bethlehem, PA 18015
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      © <span id="year"></span> DSIS Laboratory. Built with GitHub Pages.
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
