@@ -450,7 +450,7 @@ h3 {
 /* Research page */
 .research-feature {
   display: grid;
-  grid-template-columns: 1fr 0.95fr;
+  grid-template-columns: 0.75fr 1.25fr;
   gap: 42px;
   align-items: center;
 }
